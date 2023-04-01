@@ -23,7 +23,7 @@ public class ExampleInstrumentedTest {
         mDevice = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation());
         mDevice.pressHome();
         mDevice.pressHome();
-        UiObject x=mDevice.findObject(new UiSelector().text("联系人"));
+        UiObject x=mDevice.findObject(new UiSelector().text("通讯录"));
         x.click();
     }
 }
